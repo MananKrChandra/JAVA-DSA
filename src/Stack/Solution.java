@@ -11,6 +11,7 @@ public class Solution {
         int maxLength = 0;
 
         for (int i = 0; i < s.length(); i++) {
+
             if (s.charAt(i) == '(') {
                 stack.push(i);
             } else {
@@ -29,6 +30,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+
         Solution solution = new Solution();
 
         String s = ")()())";
